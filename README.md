@@ -13,10 +13,22 @@ You can click the Preview link to take a look at your changes.
   [![XML](https://img.shields.io/badge/-XML-orange?style=flat&logo=xml&link=https://github.com/AyGemuy/Java-Web-Developer)](https://github.com/AyGemuy/Java-Web-Developer)
   [![JSON](https://img.shields.io/badge/-JSON-lightgray?style=flat&logo=json&link=https://github.com/AyGemuy/Java-Web-Developer)](https://github.com/AyGemuy/Java-Web-Developer)
 
-Grid: 2D array of size N x M
-Snake: Queue (stores positions as (x, y))
-Food: Position (x, y)
-Direction: (dx, dy) tuple (Right, Left, Up, Down)
+XD :)
+
+# 🐍 Automatic Snake Game (Auto Mode)
+
+### 📦 Data Structures
+
+- Grid: 2D array of size N x M  
+- Snake: Queue (stores positions as (x, y))  
+- Food: Position (x, y)  
+- Direction: (dx, dy) tuple (RIGHT, LEFT, UP, DOWN)  
+
+---
+
+### 🔁 Game Loop
+
+```python
 while game_is_running:
     head = snake.front()
     direction = get_direction_toward(food, head)
@@ -31,11 +43,68 @@ while game_is_running:
             snake.pop_back()
     else:
         game_over()
-if food.x > head.x: return RIGHT
-if food.x < head.x: return LEFT
-if food.y > head.y: return DOWN
-if food.y < head.y: return UP
-function is_valid(pos):
+```
+
+---
+
+### ➡️ get_direction_toward(food, head)
+
+```python
+def get_direction_toward(food, head):
+    if food.x > head.x:
+        return RIGHT
+    elif food.x < head.x:
+        return LEFT
+    elif food.y > head.y:
+        return DOWN
+    elif food.y < head.y:
+        return UP
+```
+
+---
+
+### ✅ is_valid(pos)
+
+```python
+def is_valid(pos):
     return pos not in snake and within_bounds(pos)
-function is_valid(pos):
-    return pos not in snake and within_bounds(pos)
+```
+
+---
+
+### 🔲 within_bounds(pos)
+
+```python
+def within_bounds(pos):
+    return 0 <= pos.x < N and 0 <= pos.y < M
+```
+
+---
+
+### 🍴 When Food is Eaten
+
+- Grow snake (don’t remove tail)
+- Spawn new food at a random empty cell
+
+---
+
+### 🧠 AI Type
+
+This is a **Greedy AI** (moves directly toward food).  
+Advanced version can use:
+- BFS (Breadth-First Search)
+- A* Algorithm (for safest path)
+
+---
+
+### 🧪 Example Grid
+
+```
+. . . . . .
+. S S S . .
+. . . F . .
+. . . . . .
+```
+
+S = Snake, F = Food  
+Snake auto-moves toward food safely.
