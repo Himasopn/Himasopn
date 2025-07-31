@@ -33,3 +33,39 @@ XD :)
 </p>
 
 <h3>
+
+
+
+
+# ✨ UwU
+<div style="position: relative; width: 100%; height: 200px; background: black; overflow: hidden;">
+  <div style="position: absolute; width: 100%; height: 100%;">
+    <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" style="width: 100%; height: 100%;">
+      <defs>
+        <radialGradient id="starGrad" fx="50%" fy="50%" r="50%">
+          <stop offset="0%" stop-color="white" stop-opacity="1" />
+          <stop offset="100%" stop-color="white" stop-opacity="0" />
+        </radialGradient>
+      </defs>
+      <g>
+        <!-- Generate multiple stars with random positions -->
+        <!-- You can generate more <circle> tags to increase stars -->
+        <circle cx="10" cy="20" r="0.5" fill="url(#starGrad)">
+          <animate attributeName="cy" values="0;100" dur="6s" repeatCount="indefinite" />
+        </circle>
+        <circle cx="30" cy="40" r="0.5" fill="url(#starGrad)">
+          <animate attributeName="cy" values="0;100" dur="8s" repeatCount="indefinite" />
+        </circle>
+        <circle cx="70" cy="60" r="0.5" fill="url(#starGrad)">
+          <animate attributeName="cy" values="0;100" dur="10s" repeatCount="indefinite" />
+        </circle>
+        <circle cx="90" cy="10" r="0.5" fill="url(#starGrad)">
+          <animate attributeName="cy" values="0;100" dur="7s" repeatCount="indefinite" />
+        </circle>
+      </g>
+    </svg>
+  </div>
+</div>
+
+---
+
