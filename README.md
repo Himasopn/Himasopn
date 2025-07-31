@@ -15,96 +15,21 @@ You can click the Preview link to take a look at your changes.
 
 XD :)
 
-# 🐍 Automatic Snake Game (Auto Mode)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Guru322/Guru322/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Guru322/Guru322/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Guru322/Guru322/output/github-contribution-grid-snake.svg">
+</picture>
 
-### 📦 Data Structures
+<p align="center">
+    <img
+        width="52%"
+        src="https://github-readme-stats.vercel.app/api?username=Guru322&count_private=true&include_all_commits=true&show_icons=true&theme=tokyonight&custom_title=GitHub+Stats"
+    />
+    <img
+        width="49%"
+        src="https://github-readme-streak-stats.herokuapp.com?user=Guru322&theme=tokyonight"
+    />
+</p>
 
-- Grid: 2D array of size N x M  
-- Snake: Queue (stores positions as (x, y))  
-- Food: Position (x, y)  
-- Direction: (dx, dy) tuple (RIGHT, LEFT, UP, DOWN)  
-
----
-
-### 🔁 Game Loop
-
-```python
-while game_is_running:
-    head = snake.front()
-    direction = get_direction_toward(food, head)
-    next_pos = head + direction
-
-    if is_valid(next_pos):
-        if next_pos == food:
-            snake.push_front(next_pos)
-            spawn_new_food()
-        else:
-            snake.push_front(next_pos)
-            snake.pop_back()
-    else:
-        game_over()
-```
-
----
-
-### ➡️ get_direction_toward(food, head)
-
-```python
-def get_direction_toward(food, head):
-    if food.x > head.x:
-        return RIGHT
-    elif food.x < head.x:
-        return LEFT
-    elif food.y > head.y:
-        return DOWN
-    elif food.y < head.y:
-        return UP
-```
-
----
-
-### ✅ is_valid(pos)
-
-```python
-def is_valid(pos):
-    return pos not in snake and within_bounds(pos)
-```
-
----
-
-### 🔲 within_bounds(pos)
-
-```python
-def within_bounds(pos):
-    return 0 <= pos.x < N and 0 <= pos.y < M
-```
-
----
-
-### 🍴 When Food is Eaten
-
-- Grow snake (don’t remove tail)
-- Spawn new food at a random empty cell
-
----
-
-### 🧠 AI Type
-
-This is a **Greedy AI** (moves directly toward food).  
-Advanced version can use:
-- BFS (Breadth-First Search)
-- A* Algorithm (for safest path)
-
----
-
-### 🧪 Example Grid
-
-```
-. . . . . .
-. S S S . .
-. . . F . .
-. . . . . .
-```
-
-S = Snake, F = Food  
-Snake auto-moves toward food safely.
+<h3>
