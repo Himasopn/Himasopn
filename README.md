@@ -28,7 +28,7 @@ XD :)
     />
     <img
         width="49%"
-        src="https://github-readme-streak-stats.herokuapp.com?user=Guru322&theme=tokyonight"
+        src="https://github-readme-streak-stats.herokuapp.com?user=himasopn&theme=tokyonight"
     />
 </p>
 
