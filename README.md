@@ -60,12 +60,5 @@ XD :)
           <animate attributeName="cy" values="0;100" dur="10s" repeatCount="indefinite" />
         </circle>
         <circle cx="90" cy="10" r="0.5" fill="url(#starGrad)">
-          <animate attributeName="cy" values="0;100" dur="7s" repeatCount="indefinite" />
-        </circle>
-      </g>
-    </svg>
-  </div>
-</div>
-
----
+          
 
