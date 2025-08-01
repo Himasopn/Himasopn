@@ -56,7 +56,7 @@ XD :)
         <circle cx="30" cy="40" r="0.5" fill="url(#starGrad)">
           <animate attributeName="cy" values="0;100" dur="8s" repeatCount="indefinite" />
         </circle>
-        <circle cx="70" cy="60" r="0.5" fill="url(#starGrad)">
+        <circle cx="70" cy="600" r="0.5" fill="url(#starGrad)">
           <animate attributeName="cy" values="0;100" dur="10s" repeatCount="indefinite" />
         </circle>
         <circle cx="90" cy="10" r="0.5" fill="url(#starGrad)">
