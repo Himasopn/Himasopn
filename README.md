@@ -42,7 +42,7 @@ XD :)
   <div style="position: absolute; width: 100%; height: 100%;">
     <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" style="width: 100%; height: 100%;">
       <defs>
-        <radialGradient id="starGrad" fx="50%" fy="50%" r="50%">
+        <radialGradient id="starGrad" fx="50%" fy="50%" r="69%">
           <stop offset="0%" stop-color="white" stop-opacity="1" />
           <stop offset="100%" stop-color="white" stop-opacity="0" />
         </radialGradient>
