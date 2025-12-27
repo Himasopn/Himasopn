@@ -10,9 +10,8 @@
 - 💻 I build & explore projects
 - 🌱 Learning new tech every day
 
-# <>
 
-## 📦 Repository Breakdown
+##  Repository info
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Himasopn&theme=tokyonight" />
@@ -24,7 +23,7 @@
 
 ---
 
-## ⚡ Activity Graph
+## Activity Graph 🌸
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Himasopn&theme=tokyo-night&hide_border=true" />
