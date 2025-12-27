@@ -36,19 +36,7 @@
 
 ---
 
-## 🧮 Repo Count (Auto)
-
-<p align="center">
-  <img src="https://badgen.net/github/repos/Himasopn" />
-  <img src="https://badgen.net/github/forks/Himasopn" />
-</p>
-
-🟢 **Self-made repos** = Total repos − Forked repos  
-🟡 **Forked repos** = Automatically detected by GitHub  
-
----
-
-## ⚡ Activity Graph (Animation)
+## ⚡ Activity Graph
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Himasopn&theme=tokyo-night&hide_border=true" />
